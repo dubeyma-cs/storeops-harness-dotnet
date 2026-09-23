@@ -1,0 +1,8 @@
+C:\Drive_Self\Projects\Native_Arch_Claude\tests\StoreOps.Api.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_StoreOps.Api.Tests
+C:\Drive_Self\Projects\Native_Arch_Claude\tests\StoreOps.Api.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_StoreOps.Api.Tests
+C:\Drive_Self\Projects\Native_Arch_Claude\tests\StoreOps.Api.Tests\obj\Debug\net8.0\StoreOps.Api.Tests.csproj.AssemblyReference.cache
+C:\Drive_Self\Projects\Native_Arch_Claude\tests\StoreOps.Api.Tests\obj\Debug\net8.0\MvcTestingAppManifest.json
+C:\Drive_Self\Projects\Native_Arch_Claude\tests\StoreOps.Api.Tests\obj\Debug\net8.0\StoreOps.Api.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Drive_Self\Projects\Native_Arch_Claude\tests\StoreOps.Api.Tests\obj\Debug\net8.0\StoreOps.Api.Tests.AssemblyInfoInputs.cache
+C:\Drive_Self\Projects\Native_Arch_Claude\tests\StoreOps.Api.Tests\obj\Debug\net8.0\StoreOps.Api.Tests.AssemblyInfo.cs
+C:\Drive_Self\Projects\Native_Arch_Claude\tests\StoreOps.Api.Tests\obj\Debug\net8.0\StoreOps.Api.Tests.csproj.CoreCompileInputs.cache

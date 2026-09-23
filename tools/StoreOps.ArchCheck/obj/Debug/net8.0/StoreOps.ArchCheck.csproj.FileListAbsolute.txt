@@ -1,0 +1,14 @@
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\bin\Debug\net8.0\StoreOps.ArchCheck.exe
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\bin\Debug\net8.0\StoreOps.ArchCheck.deps.json
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\bin\Debug\net8.0\StoreOps.ArchCheck.runtimeconfig.json
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\bin\Debug\net8.0\StoreOps.ArchCheck.dll
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\bin\Debug\net8.0\StoreOps.ArchCheck.pdb
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\obj\Debug\net8.0\StoreOps.ArchCheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\obj\Debug\net8.0\StoreOps.ArchCheck.AssemblyInfoInputs.cache
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\obj\Debug\net8.0\StoreOps.ArchCheck.AssemblyInfo.cs
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\obj\Debug\net8.0\StoreOps.ArchCheck.csproj.CoreCompileInputs.cache
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\obj\Debug\net8.0\StoreOps.ArchCheck.dll
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\obj\Debug\net8.0\refint\StoreOps.ArchCheck.dll
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\obj\Debug\net8.0\StoreOps.ArchCheck.pdb
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\obj\Debug\net8.0\StoreOps.ArchCheck.genruntimeconfig.cache
+C:\Drive_Self\Projects\Native_Arch_Claude\tools\StoreOps.ArchCheck\obj\Debug\net8.0\ref\StoreOps.ArchCheck.dll

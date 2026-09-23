@@ -1,0 +1,45 @@
+## .NET build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+*.user
+*.suo
+*.userprefs
+
+## Test and coverage output
+TestResults/
+*.trx
+*.coverage
+coverage*.json
+coverage*.xml
+coverage*.info
+
+## IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Local secrets — none are required to run StoreOps, but never commit one by accident
+appsettings.Local.json
+*.env
+.env.*
+
+## ---------------------------------------------------------------------------------------
+## Harness working directory
+##
+## `.harness/output/` is per-run scratch: the Planner, Generator and Evaluator overwrite
+## files in here once per iteration. Committing it would bury the history in churn.
+##
+## `.harness/reviews/` is deliberately NOT ignored — the Monitor archives each sprint's
+## artefacts there after every verdict, and that archive is the permanent governance audit
+## trail. If you find yourself wanting to ignore it, read `.harness/reviews/README.md`.
+## ---------------------------------------------------------------------------------------
+.harness/output/*
+!.harness/output/README.md

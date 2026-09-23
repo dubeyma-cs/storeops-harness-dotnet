@@ -1,0 +1,138 @@
+name: CI
+
+# The pipeline runs the same four checks the harness Evaluator runs as hard gates, in the same
+# order. The harness runs them on a developer's machine before the branch is pushed; CI re-runs
+# them because the harness runs where a developer could skip it. See CLAUDE.md § 5.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  DOTNET_NOLOGO: true
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+  COVERAGE_REPORT: tests/StoreOps.Api.Tests/TestResults/coverage.cobertura.xml
+
+jobs:
+  verify:
+    name: Build, test and gates
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore
+        run: dotnet restore StoreOps.sln
+
+      # Gate H1.1 — zero warnings is part of this repository's definition of "compiles".
+      - name: Build (warnings as errors)
+        run: dotnet build StoreOps.sln --configuration Release --no-restore --warnaserror
+
+      # Gate H2.1 — every test passes. Coverage is collected in the same pass.
+      - name: Test with coverage
+        run: |
+          dotnet test StoreOps.sln \
+            --configuration Release \
+            --no-build \
+            --logger "trx;LogFileName=test-results.trx" \
+            /p:CollectCoverage=true \
+            /p:CoverletOutputFormat=cobertura
+
+      # Gate H1.2 — SO-001..SO-007. Non-zero exit fails the build.
+      - name: Architecture gate
+        run: |
+          dotnet run --project tools/StoreOps.ArchCheck --no-build --configuration Release -- \
+            --md arch-check.md
+
+      # Gate H3.1 — per-layer coverage floors: service 80%, routes 70%, shared 60%, overall 70%.
+      - name: Coverage gate
+        run: |
+          dotnet run --project tools/StoreOps.CoverageGate --no-build --configuration Release -- \
+            --report "${COVERAGE_REPORT}" \
+            --md coverage-gate.md
+
+      - name: Publish gate reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gate-reports
+          path: |
+            arch-check.md
+            coverage-gate.md
+            tests/StoreOps.Api.Tests/TestResults/
+          if-no-files-found: warn
+
+      # The harness's own verdict travels with the code. Surfacing it here means a reviewer reads
+      # the verdict that was already reached rather than re-deriving it.
+      - name: Summarise harness review artefacts
+        if: always()
+        run: |
+          {
+            echo "## Harness gate reports"
+            echo
+            [ -f arch-check.md ] && cat arch-check.md
+            echo
+            [ -f coverage-gate.md ] && cat coverage-gate.md
+            echo
+            echo "## Archived sprint verdicts"
+            echo
+            for log in .harness/reviews/*-run-log.md; do
+              [ -f "$log" ] || continue
+              echo "### $(basename "$log")"
+              grep -E '^\| (Sprint id|Verdict|Score|Iterations used|Escalation flag) ' "$log" || true
+              echo
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  container:
+    name: Container image builds
+    runs-on: ubuntu-latest
+    needs: verify
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      # The Dockerfile runs the architecture gate during its build stage, so this job also
+      # proves an image cannot be produced from a tree that violates the module rules.
+      - name: Build image
+        run: docker build --tag storeops-api:ci .
+
+      - name: Start container
+        run: |
+          docker run --detach --name storeops-ci --publish 5000:8080 storeops-api:ci
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://localhost:5000/health; then
+              echo "healthy after ${attempt}s"
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "container did not become healthy"
+          docker logs storeops-ci
+          exit 1
+
+      - name: Smoke-test an authenticated endpoint
+        run: |
+          status=$(curl --silent --output /dev/null --write-out '%{http_code}' \
+            -H "Authorization: Bearer dev-token-store-manager" \
+            http://localhost:5000/api/activities)
+          echo "GET /api/activities -> ${status}"
+          [ "${status}" = "200" ]
+
+      - name: Stop container
+        if: always()
+        run: docker rm --force storeops-ci

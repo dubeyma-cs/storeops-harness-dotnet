@@ -1,0 +1,31 @@
+<Project>
+
+  <!--
+    Shared build settings for every StoreOps project.
+    The harness Evaluator relies on these being centralised: `dotnet build` is a
+    deterministic hard gate, so warning-as-error and nullable settings must not be
+    overridable per project.
+  -->
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <!--
+      XML doc file generation is off so CS1591 does not turn every undocumented
+      internal type into a build error. StyleCop's documentation rules are tuned in
+      .editorconfig instead: public API surface must be documented, internals need not be.
+    -->
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

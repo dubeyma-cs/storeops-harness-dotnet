@@ -1,0 +1,29 @@
+services:
+  storeops-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: storeops-api:local
+    container_name: storeops-api
+    ports:
+      - "5000:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      # Background sweeps are on in the container so the SLA and escalation paths are
+      # demonstrable; shortened intervals make them observable within a demo session.
+      Activities__EnableBackgroundSlaSweep: "true"
+      Activities__SlaSweepInterval: "00:01:00"
+      Alerts__EnableBackgroundEscalationSweep: "true"
+      Alerts__EscalationSweepInterval: "00:01:00"
+      Alerts__EscalationGracePeriod: "00:05:00"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 3s
+      start_period: 10s
+      retries: 3
+    restart: unless-stopped
+
+# No volumes and no database service: StoreOps stores everything in memory by design, so
+# `docker compose down` is the reset mechanism. Anything that looked like persistence here
+# would be misleading.

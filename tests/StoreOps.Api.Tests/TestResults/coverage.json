@@ -1,0 +1,2338 @@
+{
+  "StoreOps.Api.dll": {
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Shared\\Time\\IClock.cs": {
+      "StoreOps.Api.Shared.Time.SystemClock": {
+        "System.DateTimeOffset StoreOps.Api.Shared.Time.SystemClock::get_UtcNow()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Shared\\Events\\Contracts.cs": {
+      "StoreOps.Api.Shared.Events.ActivityCreatedEvent": {
+        "System.String StoreOps.Api.Shared.Events.ActivityCreatedEvent::get_Name()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String StoreOps.Api.Shared.Events.ActivityCreatedEvent::get_SourceModule()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Events.ActivityCreatedEvent::.ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Events.ActivityStatusChangedEvent": {
+        "System.String StoreOps.Api.Shared.Events.ActivityStatusChangedEvent::get_Name()": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.String StoreOps.Api.Shared.Events.ActivityStatusChangedEvent::get_SourceModule()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Events.ActivityStatusChangedEvent::.ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Events.ActivitySlaBreachedEvent": {
+        "System.String StoreOps.Api.Shared.Events.ActivitySlaBreachedEvent::get_Name()": {
+          "Lines": {
+            "56": 0
+          },
+          "Branches": []
+        },
+        "System.String StoreOps.Api.Shared.Events.ActivitySlaBreachedEvent::get_SourceModule()": {
+          "Lines": {
+            "58": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Events.ActivitySlaBreachedEvent::.ctor(System.String,System.String,System.String,System.String,System.String,System.DateTimeOffset)": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Events.ActivitiesBulkStatusAppliedEvent": {
+        "System.String StoreOps.Api.Shared.Events.ActivitiesBulkStatusAppliedEvent::get_Name()": {
+          "Lines": {
+            "74": 0
+          },
+          "Branches": []
+        },
+        "System.String StoreOps.Api.Shared.Events.ActivitiesBulkStatusAppliedEvent::get_SourceModule()": {
+          "Lines": {
+            "76": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Events.ActivitiesBulkStatusAppliedEvent::.ctor(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Collections.Generic.IReadOnlyList`1<System.String>)": {
+          "Lines": {
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Events.ProgrammeMemberAddedEvent": {
+        "System.String StoreOps.Api.Shared.Events.ProgrammeMemberAddedEvent::get_Name()": {
+          "Lines": {
+            "87": 0
+          },
+          "Branches": []
+        },
+        "System.String StoreOps.Api.Shared.Events.ProgrammeMemberAddedEvent::get_SourceModule()": {
+          "Lines": {
+            "89": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Events.ProgrammeMemberAddedEvent::.ctor(System.String,System.String,System.String,System.String,System.String)": {
+          "Lines": {
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Events.ProgrammeClosedEvent": {
+        "System.String StoreOps.Api.Shared.Events.ProgrammeClosedEvent::get_Name()": {
+          "Lines": {
+            "102": 0
+          },
+          "Branches": []
+        },
+        "System.String StoreOps.Api.Shared.Events.ProgrammeClosedEvent::get_SourceModule()": {
+          "Lines": {
+            "104": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Events.ProgrammeClosedEvent::.ctor(System.String,System.String,System.String,System.String)": {
+          "Lines": {
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Shared\\Events\\EventSubscriberService.cs": {
+      "StoreOps.Api.Shared.Events.EventSubscriberService": {
+        "System.Threading.Tasks.Task StoreOps.Api.Shared.Events.EventSubscriberService::StartAsync(System.Threading.CancellationToken)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Shared.Events.EventSubscriberService::StopAsync(System.Threading.CancellationToken)": {
+          "Lines": {
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Events.EventSubscriberService::On(System.Func`4<System.IServiceProvider,TEvent,System.Threading.CancellationToken,System.Threading.Tasks.Task>)": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Events.EventSubscriberService::.ctor(StoreOps.Api.Shared.Events.IEventBus,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.Extensions.Logging.ILogger)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Shared\\Events\\InMemoryEventBus.cs": {
+      "StoreOps.Api.Shared.Events.InMemoryEventBus": {
+        "System.Void StoreOps.Api.Shared.Events.InMemoryEventBus::Subscribe(System.Func`3<TEvent,System.Threading.CancellationToken,System.Threading.Tasks.Task>)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 53,
+              "EndOffset": 55,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 53,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void StoreOps.Api.Shared.Events.InMemoryEventBus::.ctor(Microsoft.Extensions.Logging.ILogger`1<StoreOps.Api.Shared.Events.InMemoryEventBus>)": {
+          "Lines": {
+            "16": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Shared\\Errors\\AppError.cs": {
+      "StoreOps.Api.Shared.Errors.AppError": {
+        "System.Void StoreOps.Api.Shared.Errors.AppError::.ctor(System.String,System.String,System.Int32)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Errors.AppError::.ctor(System.String,System.String,System.Int32,System.Exception)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Shared\\Errors\\AppErrorHandlingMiddleware.cs": {
+      "StoreOps.Api.Shared.Errors.AppErrorHandlingMiddleware": {
+        "System.Void StoreOps.Api.Shared.Errors.AppErrorHandlingMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger`1<StoreOps.Api.Shared.Errors.AppErrorHandlingMiddleware>)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Errors.AppErrorHandlingMiddleware::.cctor()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Errors.ErrorBody": {
+        "System.Void StoreOps.Api.Shared.Errors.ErrorBody::.ctor(System.String,System.String,System.Int32,System.String,System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String[]>)": {
+          "Lines": {
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Shared\\Errors\\Errors.cs": {
+      "StoreOps.Api.Shared.Errors.ValidationError": {
+        "StoreOps.Api.Shared.Errors.ValidationError StoreOps.Api.Shared.Errors.ValidationError::ForField(System.String,System.String)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Errors.ValidationError::.ctor(System.String)": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Errors.ValidationError::.ctor(System.String,System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String[]>)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Errors.NotFoundError": {
+        "System.Void StoreOps.Api.Shared.Errors.NotFoundError::.ctor(System.String,System.String)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Errors.ConflictError": {
+        "System.Void StoreOps.Api.Shared.Errors.ConflictError::.ctor(System.String)": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Errors.InvalidStateTransitionError": {
+        "System.Void StoreOps.Api.Shared.Errors.InvalidStateTransitionError::.ctor(System.String,System.String)": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Errors.ForbiddenError": {
+        "System.Void StoreOps.Api.Shared.Errors.ForbiddenError::.ctor(System.String)": {
+          "Lines": {
+            "70": 0,
+            "71": 0,
+            "72": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Shared.Errors.UnauthorizedError": {
+        "System.Void StoreOps.Api.Shared.Errors.UnauthorizedError::.ctor(System.String)": {
+          "Lines": {
+            "79": 0,
+            "80": 0,
+            "81": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Shared\\Auth\\StaffContext.cs": {
+      "StoreOps.Api.Shared.Auth.StaffContext": {
+        "System.Boolean StoreOps.Api.Shared.Auth.StaffContext::get_IsStoreManagement()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Auth.StaffContext::.ctor(System.String,System.String,System.String,System.String)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Shared.Auth.StaffContext::.cctor()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Shared\\Auth\\StaffContextAccessor.cs": {
+      "StoreOps.Api.Shared.Auth.StaffContextAccessor": {
+        "System.Void StoreOps.Api.Shared.Auth.StaffContextAccessor::Set(StoreOps.Api.Shared.Auth.StaffContext)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Shared\\Auth\\SystemIdentity.cs": {
+      "StoreOps.Api.Shared.Auth.SystemIdentity": {
+        "System.Void StoreOps.Api.Shared.Auth.SystemIdentity::.cctor()": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Staff\\InMemoryStaffRepository.cs": {
+      "StoreOps.Api.Modules.Staff.InMemoryStaffRepository": {
+        "System.Threading.Tasks.Task`1<StoreOps.Api.Modules.Staff.StaffMember> StoreOps.Api.Modules.Staff.InMemoryStaffRepository::FindByIdAsync(System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 14,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<StoreOps.Api.Modules.Staff.StaffMember> StoreOps.Api.Modules.Staff.InMemoryStaffRepository::FindByTokenAsync(System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 20,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 51,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Staff.StaffMember>> StoreOps.Api.Modules.Staff.InMemoryStaffRepository::ListByStoreAsync(System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<StoreOps.Api.Modules.Staff.StaffMember> StoreOps.Api.Modules.Staff.InMemoryStaffRepository::FindDepartmentLeadAsync(System.String,System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Staff.InMemoryStaffRepository::.ctor()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Modules.Staff.InMemoryStaffRepository/SeedData": {
+        "System.Void StoreOps.Api.Modules.Staff.InMemoryStaffRepository/SeedData::.cctor()": {
+          "Lines": {
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Staff\\Models.cs": {
+      "StoreOps.Api.Modules.Staff.StaffMember": {
+        "System.Void StoreOps.Api.Modules.Staff.StaffMember::.ctor(System.String,System.String,System.String,System.String,System.String,System.String,StoreOps.Api.Modules.Staff.StaffRole,System.Boolean)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Modules.Staff.StaffProfile": {
+        "System.Void StoreOps.Api.Modules.Staff.StaffProfile::.cctor()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Staff\\StaffAuthenticationMiddleware.cs": {
+      "StoreOps.Api.Modules.Staff.StaffAuthenticationMiddleware": {
+        "System.String StoreOps.Api.Modules.Staff.StaffAuthenticationMiddleware::ReadBearerToken(Microsoft.AspNetCore.Http.HttpRequest)": {
+          "Lines": {
+            "68": 0,
+            "69": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0
+          },
+          "Branches": [
+            {
+              "Line": 71,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 35,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 54,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void StoreOps.Api.Modules.Staff.StaffAuthenticationMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Staff\\StaffModule.cs": {
+      "StoreOps.Api.Modules.Staff.StaffModule": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection StoreOps.Api.Modules.Staff.StaffModule::AddStaffModule(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Staff\\StaffService.cs": {
+      "StoreOps.Api.Modules.Staff.StaffService": {
+        "System.Threading.Tasks.Task`1<StoreOps.Api.Modules.Staff.StaffMember> StoreOps.Api.Modules.Staff.StaffService::FindAsync(System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<StoreOps.Api.Modules.Staff.StaffMember> StoreOps.Api.Modules.Staff.StaffService::FindDepartmentLeadAsync(System.String,System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Staff.StaffService::.ctor(StoreOps.Api.Modules.Staff.IStaffRepository)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Reports\\InMemoryReportRepository.cs": {
+      "StoreOps.Api.Modules.Reports.InMemoryReportRepository": {
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Reports.Report>> StoreOps.Api.Modules.Reports.InMemoryReportRepository::ListAsync(System.Threading.CancellationToken)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<StoreOps.Api.Modules.Reports.Report> StoreOps.Api.Modules.Reports.InMemoryReportRepository::FindAsync(System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 14,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Reports.InMemoryReportRepository::AddAsync(StoreOps.Api.Modules.Reports.Report,System.Threading.CancellationToken)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Reports.InMemoryReportRepository::UpdateAsync(StoreOps.Api.Modules.Reports.Report,System.Threading.CancellationToken)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Reports.InMemoryReportRepository::.ctor()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Reports\\Models.cs": {
+      "StoreOps.Api.Modules.Reports.ReportPayload": {
+        "System.Void StoreOps.Api.Modules.Reports.ReportPayload::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.Int32>,System.Collections.Generic.IReadOnlyList`1<System.String>,System.Int32,System.Int32)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Reports\\ReportService.cs": {
+      "StoreOps.Api.Modules.Reports.ReportService": {
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Reports.Report>> StoreOps.Api.Modules.Reports.ReportService::ListAsync(System.Threading.CancellationToken)": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Reports.ReportService::.ctor(StoreOps.Api.Modules.Reports.IReportRepository,StoreOps.Api.Modules.Activities.IActivityService,StoreOps.Api.Modules.Programmes.IProgrammeService,StoreOps.Api.Modules.Staff.IStaffService,StoreOps.Api.Shared.Time.IClock,Microsoft.Extensions.Logging.ILogger`1<StoreOps.Api.Modules.Reports.ReportService>)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Reports\\ReportsEventSubscriptions.cs": {
+      "StoreOps.Api.Modules.Reports.ReportsEventSubscriptions": {
+        "StoreOps.Api.Shared.Auth.StaffContext StoreOps.Api.Modules.Reports.ReportsEventSubscriptions::get_HandlerIdentity()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Reports.ReportsEventSubscriptions::Configure()": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Reports.ReportsEventSubscriptions::.ctor(StoreOps.Api.Shared.Events.IEventBus,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.Extensions.Logging.ILogger`1<StoreOps.Api.Modules.Reports.ReportsEventSubscriptions>)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Reports.ReportsEventSubscriptions::.cctor()": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Reports\\ReportsModule.cs": {
+      "StoreOps.Api.Modules.Reports.ReportsModule": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection StoreOps.Api.Modules.Reports.ReportsModule::AddReportsModule(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Programmes\\Dtos.cs": {
+      "StoreOps.Api.Modules.Programmes.ProgrammeResponse": {
+        "StoreOps.Api.Modules.Programmes.ProgrammeResponse StoreOps.Api.Modules.Programmes.ProgrammeResponse::From(StoreOps.Api.Modules.Programmes.Programme)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Programmes.ProgrammeResponse::.ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1<System.DateTimeOffset>,System.Nullable`1<System.DateTimeOffset>,System.DateTimeOffset,System.DateTimeOffset,System.Nullable`1<System.DateTimeOffset>,System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Programmes.ProgrammeMemberResponse>)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Programmes\\InMemoryProgrammeRepository.cs": {
+      "StoreOps.Api.Modules.Programmes.InMemoryProgrammeRepository": {
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Programmes.Programme>> StoreOps.Api.Modules.Programmes.InMemoryProgrammeRepository::ListByStoreAsync(System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<StoreOps.Api.Modules.Programmes.Programme> StoreOps.Api.Modules.Programmes.InMemoryProgrammeRepository::FindAsync(System.String,System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 20,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 45,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Programmes.InMemoryProgrammeRepository::AddAsync(StoreOps.Api.Modules.Programmes.Programme,System.Threading.CancellationToken)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Programmes.InMemoryProgrammeRepository::UpdateAsync(StoreOps.Api.Modules.Programmes.Programme,System.Threading.CancellationToken)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Programmes.InMemoryProgrammeRepository::.ctor()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Programmes\\Models.cs": {
+      "StoreOps.Api.Modules.Programmes.ProgrammeMember": {
+        "System.Void StoreOps.Api.Modules.Programmes.ProgrammeMember::.ctor(System.String,StoreOps.Api.Modules.Programmes.ProgrammeRole,System.DateTimeOffset,System.String)": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Modules.Programmes.ProgrammeReadModel": {
+        "System.Void StoreOps.Api.Modules.Programmes.ProgrammeReadModel::.ctor(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Nullable`1<System.DateTimeOffset>)": {
+          "Lines": {
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Programmes\\ProgrammesController.cs": {
+      "StoreOps.Api.Modules.Programmes.ProgrammesController": {
+        "System.Void StoreOps.Api.Modules.Programmes.ProgrammesController::.ctor(StoreOps.Api.Modules.Programmes.IProgrammeService)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Programmes\\ProgrammeService.cs": {
+      "StoreOps.Api.Modules.Programmes.ProgrammeService": {
+        "StoreOps.Api.Shared.Auth.StaffContext StoreOps.Api.Modules.Programmes.ProgrammeService::get_Caller()": {
+          "Lines": {
+            "33": 0,
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 33,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 12,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Programmes.Programme>> StoreOps.Api.Modules.Programmes.ProgrammeService::ListAsync(System.Threading.CancellationToken)": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Programmes.ProgrammeService::.ctor(StoreOps.Api.Modules.Programmes.IProgrammeRepository,StoreOps.Api.Modules.Staff.IStaffService,StoreOps.Api.Shared.Events.IEventBus,StoreOps.Api.Shared.Auth.IStaffContextAccessor,StoreOps.Api.Shared.Time.IClock)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Programmes\\ProgrammesModule.cs": {
+      "StoreOps.Api.Modules.Programmes.ProgrammesModule": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection StoreOps.Api.Modules.Programmes.ProgrammesModule::AddProgrammesModule(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Alerts\\AlertsController.cs": {
+      "StoreOps.Api.Modules.Alerts.AlertsController": {
+        "System.Void StoreOps.Api.Modules.Alerts.AlertsController::.ctor(StoreOps.Api.Modules.Alerts.IAlertService)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Modules.Alerts.AlertResponse": {
+        "StoreOps.Api.Modules.Alerts.AlertResponse StoreOps.Api.Modules.Alerts.AlertResponse::From(StoreOps.Api.Modules.Alerts.Notification)": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Alerts.AlertResponse::.ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTimeOffset)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Alerts\\AlertService.cs": {
+      "StoreOps.Api.Modules.Alerts.AlertService": {
+        "StoreOps.Api.Shared.Auth.StaffContext StoreOps.Api.Modules.Alerts.AlertService::get_Caller()": {
+          "Lines": {
+            "48": 0,
+            "49": 0
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 12,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Alerts.Notification>> StoreOps.Api.Modules.Alerts.AlertService::ListForCurrentStaffAsync(System.Threading.CancellationToken)": {
+          "Lines": {
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": []
+        },
+        "System.String StoreOps.Api.Modules.Alerts.AlertService::NewId()": {
+          "Lines": {
+            "225": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Alerts.AlertService::.ctor(StoreOps.Api.Modules.Alerts.IAlertRepository,StoreOps.Api.Modules.Staff.IStaffService,StoreOps.Api.Modules.Activities.IActivityService,StoreOps.Api.Shared.Auth.IStaffContextAccessor,StoreOps.Api.Shared.Time.IClock,Microsoft.Extensions.Options.IOptions`1<StoreOps.Api.Modules.Alerts.AlertOptions>,Microsoft.Extensions.Logging.ILogger`1<StoreOps.Api.Modules.Alerts.AlertService>)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Alerts\\AlertsEventSubscriptions.cs": {
+      "StoreOps.Api.Modules.Alerts.AlertsEventSubscriptions": {
+        "StoreOps.Api.Shared.Auth.StaffContext StoreOps.Api.Modules.Alerts.AlertsEventSubscriptions::get_HandlerIdentity()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Alerts.AlertsEventSubscriptions::Configure()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Alerts.AlertsEventSubscriptions::.ctor(StoreOps.Api.Shared.Events.IEventBus,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.Extensions.Logging.ILogger`1<StoreOps.Api.Modules.Alerts.AlertsEventSubscriptions>)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Alerts.AlertsEventSubscriptions::.cctor()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Alerts\\AlertsModule.cs": {
+      "StoreOps.Api.Modules.Alerts.AlertsModule": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection StoreOps.Api.Modules.Alerts.AlertsModule::AddAlertsModule(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Alerts\\EscalationSweepWorker.cs": {
+      "StoreOps.Api.Modules.Alerts.EscalationSweepWorker": {
+        "System.Void StoreOps.Api.Modules.Alerts.EscalationSweepWorker::.ctor(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.Extensions.Options.IOptions`1<StoreOps.Api.Modules.Alerts.AlertOptions>,Microsoft.Extensions.Logging.ILogger`1<StoreOps.Api.Modules.Alerts.EscalationSweepWorker>)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Alerts\\InMemoryAlertRepository.cs": {
+      "StoreOps.Api.Modules.Alerts.InMemoryAlertRepository": {
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Alerts.Notification>> StoreOps.Api.Modules.Alerts.InMemoryAlertRepository::ListForRecipientAsync(System.String,System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Alerts.InMemoryAlertRepository::AddAsync(StoreOps.Api.Modules.Alerts.Notification,System.Threading.CancellationToken)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Boolean> StoreOps.Api.Modules.Alerts.InMemoryAlertRepository::ExistsForActivityAsync(System.String,StoreOps.Api.Modules.Alerts.AlertType,System.Threading.CancellationToken)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Alerts.InMemoryAlertRepository::UpsertEscalationAsync(StoreOps.Api.Modules.Alerts.PendingEscalation,System.Threading.CancellationToken)": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Alerts.InMemoryAlertRepository::RemoveEscalationAsync(System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Alerts.PendingEscalation>> StoreOps.Api.Modules.Alerts.InMemoryAlertRepository::ListEscalationsDueAsync(System.DateTimeOffset,System.Threading.CancellationToken)": {
+          "Lines": {
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "67": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Alerts.InMemoryAlertRepository::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Alerts\\Models.cs": {
+      "StoreOps.Api.Modules.Alerts.PendingEscalation": {
+        "System.Void StoreOps.Api.Modules.Alerts.PendingEscalation::.ctor(System.String,System.String,System.String,System.DateTimeOffset,System.DateTimeOffset)": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Activities\\ActivitiesController.cs": {
+      "StoreOps.Api.Modules.Activities.ActivitiesController": {
+        "System.Void StoreOps.Api.Modules.Activities.ActivitiesController::.ctor(StoreOps.Api.Modules.Activities.IActivityService)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Activities\\ActivitiesModule.cs": {
+      "StoreOps.Api.Modules.Activities.ActivitiesModule": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection StoreOps.Api.Modules.Activities.ActivitiesModule::AddActivitiesModule(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Activities\\ActivityService.cs": {
+      "StoreOps.Api.Modules.Activities.ActivityService": {
+        "StoreOps.Api.Shared.Auth.StaffContext StoreOps.Api.Modules.Activities.ActivityService::get_Caller()": {
+          "Lines": {
+            "48": 0,
+            "49": 0
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 12,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Activities.Activity>> StoreOps.Api.Modules.Activities.ActivityService::ListAsync(System.String,System.Nullable`1<StoreOps.Api.Modules.Activities.ActivityStatus>,System.Threading.CancellationToken)": {
+          "Lines": {
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        },
+        "StoreOps.Api.Modules.Activities.ActivityReadModel StoreOps.Api.Modules.Activities.ActivityService::ToReadModel(StoreOps.Api.Modules.Activities.Activity,System.DateTimeOffset)": {
+          "Lines": {
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Activities.ActivityService::ApplyStatusGuards(StoreOps.Api.Modules.Activities.Activity,StoreOps.Api.Modules.Activities.ActivityStatus,System.String)": {
+          "Lines": {
+            "428": 0,
+            "429": 0,
+            "430": 0,
+            "431": 0,
+            "434": 0,
+            "435": 0,
+            "436": 0,
+            "438": 0
+          },
+          "Branches": [
+            {
+              "Line": 429,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 429,
+              "Offset": 18,
+              "EndOffset": 60,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 434,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 434,
+              "Offset": 66,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 434,
+              "Offset": 79,
+              "EndOffset": 81,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 434,
+              "Offset": 79,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "StoreOps.Api.Modules.Activities.BulkStatusItemResult StoreOps.Api.Modules.Activities.ActivityService::ValidateHandoverItem(StoreOps.Api.Modules.Activities.Activity,StoreOps.Api.Modules.Activities.BulkStatusItem)": {
+          "Lines": {
+            "441": 0,
+            "442": 0,
+            "443": 0,
+            "444": 0,
+            "445": 0,
+            "446": 0,
+            "447": 0,
+            "450": 0,
+            "451": 0,
+            "452": 0,
+            "453": 0,
+            "454": 0,
+            "455": 0,
+            "458": 0,
+            "459": 0,
+            "460": 0,
+            "461": 0,
+            "462": 0,
+            "463": 0,
+            "466": 0,
+            "467": 0
+          },
+          "Branches": [
+            {
+              "Line": 442,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 442,
+              "Offset": 17,
+              "EndOffset": 135,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 450,
+              "Offset": 157,
+              "EndOffset": 159,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 450,
+              "Offset": 157,
+              "EndOffset": 263,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 458,
+              "Offset": 274,
+              "EndOffset": 276,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 458,
+              "Offset": 274,
+              "EndOffset": 289,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 458,
+              "Offset": 294,
+              "EndOffset": 296,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 458,
+              "Offset": 294,
+              "EndOffset": 321,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Activities.ActivityService::PublishStatusChangedAsync(StoreOps.Api.Modules.Activities.Activity,StoreOps.Api.Modules.Activities.Activity,System.String,System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "496": 0,
+            "497": 0,
+            "498": 0,
+            "499": 0,
+            "500": 0,
+            "501": 0,
+            "502": 0,
+            "503": 0,
+            "504": 0,
+            "505": 0,
+            "506": 0,
+            "507": 0
+          },
+          "Branches": []
+        },
+        "StoreOps.Api.Modules.Activities.ActivityAuditEntry StoreOps.Api.Modules.Activities.ActivityService::BuildAudit(StoreOps.Api.Modules.Activities.Activity,System.String,System.String,System.Nullable`1<StoreOps.Api.Modules.Activities.ActivityStatus>,System.Nullable`1<StoreOps.Api.Modules.Activities.ActivityStatus>,System.String,System.String,System.DateTimeOffset)": {
+          "Lines": {
+            "518": 0,
+            "519": 0,
+            "520": 0,
+            "521": 0,
+            "522": 0,
+            "523": 0,
+            "524": 0,
+            "525": 0,
+            "526": 0,
+            "527": 0,
+            "528": 0
+          },
+          "Branches": [
+            {
+              "Line": 518,
+              "Offset": 76,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 518,
+              "Offset": 76,
+              "EndOffset": 81,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 518,
+              "Offset": 109,
+              "EndOffset": 111,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 518,
+              "Offset": 109,
+              "EndOffset": 114,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void StoreOps.Api.Modules.Activities.ActivityService::.ctor(StoreOps.Api.Modules.Activities.IActivityRepository,StoreOps.Api.Modules.Staff.IStaffService,StoreOps.Api.Shared.Events.IEventBus,StoreOps.Api.Shared.Auth.IStaffContextAccessor,StoreOps.Api.Shared.Time.IClock,Microsoft.Extensions.Logging.ILogger`1<StoreOps.Api.Modules.Activities.ActivityService>)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Activities\\ActivityStatusPolicy.cs": {
+      "StoreOps.Api.Modules.Activities.ActivityStatusPolicy": {
+        "System.Boolean StoreOps.Api.Modules.Activities.ActivityStatusPolicy::CanTransition(StoreOps.Api.Modules.Activities.ActivityStatus,StoreOps.Api.Modules.Activities.ActivityStatus)": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 2,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean StoreOps.Api.Modules.Activities.ActivityStatusPolicy::IsHandoverStatus(StoreOps.Api.Modules.Activities.ActivityStatus)": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean StoreOps.Api.Modules.Activities.ActivityStatusPolicy::RequiresReason(StoreOps.Api.Modules.Activities.ActivityStatus)": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Activities.ActivityStatusPolicy::.cctor()": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Activities\\Dtos.cs": {
+      "StoreOps.Api.Modules.Activities.BulkStatusItemResult": {
+        "StoreOps.Api.Modules.Activities.BulkStatusItemResult StoreOps.Api.Modules.Activities.BulkStatusItemResult::Updated(System.String,StoreOps.Api.Modules.Activities.ActivityStatus)": {
+          "Lines": {
+            "85": 0
+          },
+          "Branches": []
+        },
+        "StoreOps.Api.Modules.Activities.BulkStatusItemResult StoreOps.Api.Modules.Activities.BulkStatusItemResult::Failed(System.String,System.String,System.String)": {
+          "Lines": {
+            "88": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Activities.BulkStatusItemResult::.ctor(System.String,System.String,System.String,System.String,System.String)": {
+          "Lines": {
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Modules.Activities.BulkStatusUpdateResponse": {
+        "System.Void StoreOps.Api.Modules.Activities.BulkStatusUpdateResponse::.ctor(System.Int32,System.Int32,System.Int32,System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Activities.BulkStatusItemResult>)": {
+          "Lines": {
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Modules.Activities.ActivityResponse": {
+        "StoreOps.Api.Modules.Activities.ActivityResponse StoreOps.Api.Modules.Activities.ActivityResponse::From(StoreOps.Api.Modules.Activities.Activity)": {
+          "Lines": {
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Activities.ActivityResponse::.ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1<System.DateTimeOffset>,System.DateTimeOffset,System.DateTimeOffset,System.Nullable`1<System.DateTimeOffset>)": {
+          "Lines": {
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Activities\\InMemoryActivityRepository.cs": {
+      "StoreOps.Api.Modules.Activities.InMemoryActivityRepository": {
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Activities.Activity>> StoreOps.Api.Modules.Activities.InMemoryActivityRepository::ListAsync(StoreOps.Api.Modules.Activities.ActivityListFilter,System.Threading.CancellationToken)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 75,
+              "EndOffset": 77,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 75,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 92,
+              "EndOffset": 94,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 92,
+              "EndOffset": 115,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 135,
+              "EndOffset": 137,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 135,
+              "EndOffset": 153,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 158,
+              "EndOffset": 160,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 158,
+              "EndOffset": 181,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<StoreOps.Api.Modules.Activities.Activity> StoreOps.Api.Modules.Activities.InMemoryActivityRepository::FindAsync(System.String,System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 20,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 45,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyDictionary`2<System.String,StoreOps.Api.Modules.Activities.Activity>> StoreOps.Api.Modules.Activities.InMemoryActivityRepository::FindManyAsync(System.Collections.Generic.IEnumerable`1<System.String>,System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0
+          },
+          "Branches": [
+            {
+              "Line": 68,
+              "Offset": 108,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 66,
+              "EndOffset": 83,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 88,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 108,
+              "EndOffset": 110,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Activities.InMemoryActivityRepository::AddAsync(StoreOps.Api.Modules.Activities.Activity,System.Threading.CancellationToken)": {
+          "Lines": {
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Activities.InMemoryActivityRepository::UpdateAsync(StoreOps.Api.Modules.Activities.Activity,System.Threading.CancellationToken)": {
+          "Lines": {
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Boolean> StoreOps.Api.Modules.Activities.InMemoryActivityRepository::DeleteAsync(System.String,System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "105": 0,
+            "106": 0
+          },
+          "Branches": [
+            {
+              "Line": 99,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 15,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 38,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task StoreOps.Api.Modules.Activities.InMemoryActivityRepository::AppendAuditAsync(System.Collections.Generic.IEnumerable`1<StoreOps.Api.Modules.Activities.ActivityAuditEntry>,System.Threading.CancellationToken)": {
+          "Lines": {
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "119": 0,
+            "120": 0
+          },
+          "Branches": [
+            {
+              "Line": 114,
+              "Offset": 51,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Activities.ActivityAuditEntry>> StoreOps.Api.Modules.Activities.InMemoryActivityRepository::ListAuditAsync(System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "131": 0,
+            "132": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<StoreOps.Api.Modules.Activities.Activity>> StoreOps.Api.Modules.Activities.InMemoryActivityRepository::ListUnflaggedOverdueAsync(System.DateTimeOffset,System.Threading.CancellationToken)": {
+          "Lines": {
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "143": 0,
+            "144": 0
+          },
+          "Branches": []
+        },
+        "System.Void StoreOps.Api.Modules.Activities.InMemoryActivityRepository::.ctor()": {
+          "Lines": {
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Activities\\Models.cs": {
+      "StoreOps.Api.Modules.Activities.Activity": {
+        "System.Boolean StoreOps.Api.Modules.Activities.Activity::get_IsSlaTracked()": {
+          "Lines": {
+            "80": 0
+          },
+          "Branches": [
+            {
+              "Line": 80,
+              "Offset": 11,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 11,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean StoreOps.Api.Modules.Activities.Activity::IsOverdueAt(System.DateTimeOffset)": {
+          "Lines": {
+            "83": 0
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 14,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 31,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "StoreOps.Api.Modules.Activities.ActivityAuditEntry": {
+        "System.Void StoreOps.Api.Modules.Activities.ActivityAuditEntry::.ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTimeOffset)": {
+          "Lines": {
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Modules.Activities.ActivityListFilter": {
+        "System.Void StoreOps.Api.Modules.Activities.ActivityListFilter::.ctor(System.String,System.String,System.Nullable`1<StoreOps.Api.Modules.Activities.ActivityStatus>)": {
+          "Lines": {
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0
+          },
+          "Branches": []
+        }
+      },
+      "StoreOps.Api.Modules.Activities.ActivityReadModel": {
+        "System.Void StoreOps.Api.Modules.Activities.ActivityReadModel::.ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1<System.DateTimeOffset>,System.Nullable`1<System.DateTimeOffset>,System.Boolean)": {
+          "Lines": {
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\src\\StoreOps.Api\\Modules\\Activities\\SlaSweepWorker.cs": {
+      "StoreOps.Api.Modules.Activities.SlaSweepWorker": {
+        "System.Void StoreOps.Api.Modules.Activities.SlaSweepWorker::.ctor(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.Extensions.Options.IOptions`1<StoreOps.Api.Modules.Activities.ActivityOptions>,Microsoft.Extensions.Logging.ILogger`1<StoreOps.Api.Modules.Activities.SlaSweepWorker>)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

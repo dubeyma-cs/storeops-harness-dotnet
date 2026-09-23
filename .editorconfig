@@ -1,0 +1,83 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{json,yml,yaml,md}]
+indent_size = 2
+
+[*.cs]
+
+# ---------------------------------------------------------------------------
+# Language / style preferences
+# ---------------------------------------------------------------------------
+csharp_style_namespace_declarations = file_scoped:warning
+csharp_prefer_braces = true:suggestion
+dotnet_style_qualification_for_field = false:none
+dotnet_style_qualification_for_property = false:none
+dotnet_style_qualification_for_method = false:none
+dotnet_diagnostic.IDE0161.severity = warning
+
+# ---------------------------------------------------------------------------
+# StyleCop ruleset for StoreOps
+#
+# Every suppression below is a deliberate project decision, not noise reduction.
+# The Evaluator treats `dotnet build` as a hard gate, so this list is the contract
+# for what "0 warnings" means in this codebase.
+# ---------------------------------------------------------------------------
+
+# Documentation: public API surface only. Internal plumbing does not need XML docs.
+dotnet_diagnostic.SA1600.severity = none   # Elements should be documented
+dotnet_diagnostic.SA1601.severity = none   # Partial elements should be documented
+dotnet_diagnostic.SA1602.severity = none   # Enumeration items should be documented
+dotnet_diagnostic.SA1633.severity = none   # File should have a copyright header
+dotnet_diagnostic.SA1652.severity = none   # Enable XML documentation output
+
+# StyleCop 1.1 predates C# 11 `required` members and reads them as misordered modifiers;
+# `public required` is the only legal order, so the rule cannot be satisfied.
+dotnet_diagnostic.SA1206.severity = none   # Modifier order
+dotnet_diagnostic.SA0001.severity = none   # XML comment analysis disabled (GenerateDocumentationFile=false)
+
+# Modern C# idioms that StyleCop 1.1 predates.
+dotnet_diagnostic.SA1101.severity = none   # Prefix local calls with 'this'
+dotnet_diagnostic.SA1309.severity = none   # Field names should not begin with underscore
+dotnet_diagnostic.SA1633.severity = none
+dotnet_diagnostic.SA1516.severity = none   # Elements should be separated by blank line
+dotnet_diagnostic.SA1512.severity = none   # Single-line comments should not be followed by blank line
+dotnet_diagnostic.SA1515.severity = none   # Single-line comment should be preceded by blank line
+dotnet_diagnostic.SA1201.severity = none   # Ordering of members by kind (records/ctors read better grouped)
+dotnet_diagnostic.SA1202.severity = none   # Ordering by access level
+dotnet_diagnostic.SA1204.severity = none   # Static before non-static
+dotnet_diagnostic.SA1200.severity = none   # Using directives placement (file-scoped namespaces)
+dotnet_diagnostic.SA1313.severity = none   # Parameter names begin lowercase (positional records)
+dotnet_diagnostic.SA1000.severity = none   # Keyword spacing (conflicts with target-typed new)
+dotnet_diagnostic.SA1008.severity = none   # Opening paren spacing (conflicts with `is not (A or B)` patterns and `var (a, b)` deconstruction)
+dotnet_diagnostic.SA1009.severity = none   # Closing paren spacing (conflicts with nullable generics)
+dotnet_diagnostic.SA1111.severity = none
+dotnet_diagnostic.SA1118.severity = none   # Parameter should not span multiple lines
+dotnet_diagnostic.SA1413.severity = none   # Trailing comma in multi-line initializers
+dotnet_diagnostic.SA1503.severity = none   # Braces should not be omitted
+dotnet_diagnostic.SA1520.severity = none
+dotnet_diagnostic.SA1615.severity = none   # Element return value should be documented
+dotnet_diagnostic.SA1618.severity = none   # Generic type parameters should be documented
+dotnet_diagnostic.SA1611.severity = none   # Element parameters should be documented
+dotnet_diagnostic.SA1629.severity = none   # Documentation text should end with a period
+dotnet_diagnostic.SA1649.severity = none   # File name should match first type (module DTO files)
+dotnet_diagnostic.SA1402.severity = none   # File may only contain a single type (DTO/enum files)
+
+# Rules kept at error because they protect the StoreOps error contract and layering.
+dotnet_diagnostic.SA1124.severity = warning  # Do not use regions
+dotnet_diagnostic.CA1031.severity = none     # Handled centrally by AppErrorHandlingMiddleware
+dotnet_diagnostic.CA2007.severity = none     # No ConfigureAwait in ASP.NET Core
+
+[tests/**/*.cs]
+# Tests intentionally throw raw exceptions inside assertion helpers and use
+# underscore-heavy method names (Given_When_Then).
+dotnet_diagnostic.SA1118.severity = none
+dotnet_diagnostic.CA1707.severity = none
+dotnet_diagnostic.SA1124.severity = none

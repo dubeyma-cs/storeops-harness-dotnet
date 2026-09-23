@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ejN3tLpskSs=",
+  "success": true,
+  "projectFilePath": "C:\\Drive_Self\\Projects\\Native_Arch_Claude\\tools\\StoreOps.ArchCheck\\StoreOps.ArchCheck.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\2371402\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}
