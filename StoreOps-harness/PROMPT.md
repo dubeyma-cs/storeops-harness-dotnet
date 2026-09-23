@@ -34,10 +34,8 @@ delivery of the notification.
 | Sprint 1 contract — AC-1…AC-12 | [`.harness/reviews/sprint-1-contract.md`](.harness/reviews/sprint-1-contract.md) |
 | Sprint 2 contract — AC-13…AC-15 | [`.harness/reviews/sprint-2-contract.md`](.harness/reviews/sprint-2-contract.md) |
 | Sprint 1 generator summary | [`.harness/reviews/sprint-1-generator-summary.md`](.harness/reviews/sprint-1-generator-summary.md) |
-| Sprint 1 evaluator feedback — FAIL then PASS | [`.harness/reviews/sprint-1-evaluator-feedback.md`](.harness/reviews/sprint-1-evaluator-feedback.md) |
 | Sprint 1 run log | [`.harness/reviews/sprint-1-run-log.md`](.harness/reviews/sprint-1-run-log.md) |
 | Sprint 2 generator summary | [`.harness/reviews/sprint-2-generator-summary.md`](.harness/reviews/sprint-2-generator-summary.md) |
-| Sprint 2 evaluator feedback | [`.harness/reviews/sprint-2-evaluator-feedback.md`](.harness/reviews/sprint-2-evaluator-feedback.md) |
 | Sprint 2 run log | [`.harness/reviews/sprint-2-run-log.md`](.harness/reviews/sprint-2-run-log.md) |
 | Architecture gate reports | [`sprint-1-arch-check.md`](.harness/reviews/sprint-1-arch-check.md), [`sprint-2-arch-check.md`](.harness/reviews/sprint-2-arch-check.md) |
 | Code | `src/StoreOps.Api/Modules/Activities/`, `src/StoreOps.Api/Modules/Alerts/`, `src/StoreOps.Api/Shared/Events/Contracts.cs` |
