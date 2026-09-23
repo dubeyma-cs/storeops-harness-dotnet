@@ -41,7 +41,6 @@ in its own definition — never the whole repository — and writes exactly one 
 | --- | --- | --- | --- |
 | Planner | [`.harness/agents/planner.agent.md`](.harness/agents/planner.agent.md) | `app-context`, `architecture-principles`, `sprint-decomposition` | `.harness/output/spec.md`, `.harness/output/sprint-N-contract.md` |
 | Generator | [`.harness/agents/generator.agent.md`](.harness/agents/generator.agent.md) | `app-context`, `architecture-principles`, `coding-conventions`, `api-integration`, `how-to-test` | code in `src/` and `tests/`, `.harness/output/generator-summary.md` |
-| Evaluator | [`.harness/agents/evaluator.agent.md`](.harness/agents/evaluator.agent.md) | `architecture-principles`, `how-to-review`, `evaluation-criteria` | `.harness/output/evaluator-feedback.md` |
 | Monitor | [`.harness/agents/monitor.agent.md`](.harness/agents/monitor.agent.md) | `app-context` | `.harness/reviews/sprint-N-run-log.md` |
 
 Invocation is sequential and explicit. Read the agent definition, then act as that agent for the
